@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Kanit:ital,wght@1,500&family=Roboto:wght@300;500;700&family=Tilt+Warp&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+.home{
+    background-image: url(img/3.jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}   
+.namtay{
+    width: 500px;
+    height: 100%;
+}
+.img-namtay{
+    width: 800px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: -40px;
+    z-index: 100000;
+}
+.dat{
+    position: absolute;
+    width: 80%;
+    top: 0;
+    left: 0;
+    transform: translate(-25%,50%);
+}
+.content{
+    padding: 10px 20px;
+}
+.content h2 {
+    color: #000000;
+    font-size: 5rem;
+    opacity: 1;
+}
+.content span{
+    font-size: 30px;
+    font-weight: 400;
+}
+.sun {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    top: 0;
+    right: 0;
+    transform: translate(45% , -40%);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    justify-content: space-between;
+    padding: 50px;
+    background: #FBF6F3;
+    position: relative;
+    overflow: hidden;
+}
+/* h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #000000;
+} */
+
+.countdown-love{
+    position: relative;
+    /* border:1px solid red; */
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.love-day{
+    width: 90%;
+    height: 90%;
+    border: 5px solid #d9a292;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px 10px;
+    background-image: url(img/yew.jpg);
+    background-size: cover; /* Hiển thị ảnh như kiểu object-fit: cover */
+    background-position: center center;
+}
+
+.trangtri{
+    position: absolute;
+}
+.cucxanh{
+    width: 100%;
+    height: 800px;
+    left: 0;
+    bottom: 0;
+    transform: translate(-47% , 40%);
+}
+.trondovua{
+    width: 600px;
+    height: 400px;
+    margin: 65% -10% 0;
+    animation: 0.8s infinite cucxanh;
+}
+.khoidovua{
+    width: 100%;
+    height: 600px;
+    margin: -55% -45%;
+    animation: 0.8s infinite cucxanh;
+
+}
+.cucxanhnho{
+    width: 100%;
+    height: 600px;
+    margin: -38% -30%;
+    animation: 0.8s infinite cucxanh;
+}
+.trondoto{
+    width: 100%;
+    height: 800px;
+    transform: translate(0% , -60%);
+}
+.khoidoto{
+    width: 100%;
+    height: 800px;
+    transform: translate(55% , -10%);
+}
+.cucxanhvua{
+    width: 100%;
+    height: 500px;
+    transform: translate(80% , -35%);
+
+}
+.trondotoxun{
+    width: 100%;
+    height: 900px;
+    transform: translate(37% , 30%);
+}
+.khoidonho{
+    width: 100%;
+    height: 600px;
+    transform: translate(45% , 50%);
+}
+.love-day span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+
+ .time{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    /* background: rgba(217, 29, 234, 0.11); */
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.time span {
+    font-size: 20px;
+    width: 20px ;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    color: #000000;
+} 
+
+.container-memories{
+    position: relative;
+    background:  #FBF6F3;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+    justify-content: center ;
+    align-items: center ;
+}
+.container-memories h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #30197f;
+    opacity: 0.5;
+}
+
+.row{
+    width: 100%;
+    padding: 20px 20px;
+    height: 80%;
+    margin-top: 30px;
+}
+.swiper-slide {
+    height: 90px;
+    /* background: #882525; */
+    text-align: center;
+    padding: 40px 40px;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px;
+    border: #d9a292;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.layout:hover{
+    transform: scale(1.1) translateZ(0);
+}
+
+
+.container-startday{
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    background:  #FBF6F3;
+    overflow: hidden;
+}
+.container-startday h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #30197f;
+    opacity: 0.5;
+    padding: 40px 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.ward{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 2fr 1fr;
+    align-items: center;
+    overflow: hidden;
+}
+.loichuc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+.loichuc img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.loichuc-img{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seen{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 20px 0;
+    border-radius: 20px;
+    background: #d9a292;
+    border: none;
+    transition: 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.fa-paper-plane:before {
+    color: beige;
+}
+.seen:hover{
+    background: #30197f;
+}
+/* .xedap{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: relative;
+} */
+/* .anhxedap{
+    width: 200px ;
+    height: 100px ;
+    object-fit: cover;
+    z-index: 1000;
+    animation: 4s infinite cubic-bezier(0.215, 0.810, 0.855, 0.251) running anhxedap;
+} */
+
+
+@keyframes anhxedap {
+    from{
+        transform: translateX(-300%);
+        
+    }
+    to{
+        transform: translateX(500%);
+    }
+    /* 100%{
+        transform: translateX(-120%);
+    } */
+}
+
+@keyframes cucxanh {
+    0% {
+        transform: translateY(0) rotate(-180deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(180deg);
+    }
+}
+@keyframes cucxanhvua{
+    0% {
+        transform: translateY(0) rotate(-180deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(180deg);
+    }
+
+}
+
+
+
+
+
+
+
+
